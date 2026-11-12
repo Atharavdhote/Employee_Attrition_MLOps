@@ -27,9 +27,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run automated tests
-<<<<<<< HEAD
-        run: |
-          python -m pytest -v
-=======
         run: python -m pytest -v
->>>>>>> d3a8823e2e546a994a606ffa4d19ed6c067a4c0b
